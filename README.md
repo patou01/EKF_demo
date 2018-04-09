@@ -29,7 +29,15 @@ The original image and various intermediate steps are displayed. On the final on
 
 # todo
 
-Make a setup that will allow to use a model prediction, eg freefall without initial motion (this requires some knowledge of physical environment). Maybe later make a trajectory estimation for a throw.
+- Make a setup that will allow to use a model prediction, eg freefall without initial motion (this requires some knowledge of physical environment). 
+- Maybe later make a trajectory estimation for a throw.
+
+
+# libraries
+
+- python 2.7.12 
+- opencv 3.3.1-dev
+- numpy 1.11.0
 
 # license
 

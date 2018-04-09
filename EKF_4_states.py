@@ -14,7 +14,7 @@ lower = np.array([20, 45, 130])
 #lower = np.array([0, 0, 0,])
 
 
-np.set_printoptions(formatter={'float': lambda x: "{0:0.2f}".format(x)})
+
 
 state = np.matrix('0.0;0.0;0.0;0.0') # x, y, xd, yd, 
 
@@ -183,11 +183,12 @@ def run_EKF_measurement(state,measurement, P):
 
 
 
+np.set_printoptions(formatter={'float': lambda x: "{0:0.2f}".format(x)})
 
 # print basic info
 print('python ' + platform.python_version())
 print('opencv ' + cv2.__version__)
-
+print('numpy ' + np.version.version)
 
 
 
