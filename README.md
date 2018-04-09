@@ -36,13 +36,13 @@ See [Youtube](https://youtu.be/uz0bcjCO1zg)
 - No optimization of any ekf parameters, causes large lag.
 - Brute forcing the image processing causes oscillations when the occlusion happens slowly.
 
-# todo
+# Todo
 
 - Make a setup that will allow to use a model prediction, eg freefall without initial motion (this requires some knowledge of physical environment). 
 - Maybe later make a trajectory estimation for a throw.
 
 
-# libraries
+# Libraries
 
 - python 2.7.12 
 - opencv 3.3.1-dev
